@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <title>Info</title>
+</head>
+
+<body>
+<div class="container">
+  <h3>Employee Directory</h3>
+  <hr>
+
+  <p class="h4 mb-4">Info about employee</p>
+
+  <p class="h6 mb-1">Id</p>
+  <span th:text="${employee.getId()}"/>
+
+  <p></p>
+  <p class="h6 mb-1">First name</p>
+  <span th:text="${employee.getFirstName()}"/>
+
+  <p></p>
+  <p class="h6 mb-1">Last name</p>
+  <span th:text="${employee.getLastName()}"/>
+
+  <p></p>
+  <p class="h6 mb-1">Email</p>
+  <span th:text="${employee.getEmail()}"/>
+
+  <hr>
+
+  <a th:href="@{/employees/list}"
+     class="btn btn-primary btn-sm mb-3">
+    Back to Employees List
+  </a>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/06-spring-boot-spring-mvc.iml" filepath="$PROJECT_DIR$/.idea/06-spring-boot-spring-mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-thymeleafdemo/thymeleafdemo.iml" filepath="$PROJECT_DIR$/01-thymeleafdemo/thymeleafdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-thymeleafdemo-helloword2/thymeleafdemo (1).iml" filepath="$PROJECT_DIR$/01-thymeleafdemo-helloword2/thymeleafdemo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/validationdemo/validationdemo.iml" filepath="$PROJECT_DIR$/validationdemo/validationdemo.iml" />
+    </modules>
+  </component>
+</project>

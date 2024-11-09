@@ -1,0 +1,19 @@
+.info-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px; /* Space between label and value */
+    max-width: 400px; /* Optional: adjust to fit your layout */
+}
+
+.info-grid div {
+    display: flex;
+    align-items: center;
+}
+
+.info-grid .label {
+    font-weight: bold;
+}
+
+.info-grid .value {
+    text-align: left; /* Ensure values are left-aligned */
+}
